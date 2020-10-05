@@ -1,0 +1,17 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-spring4-4.dtd">
+<html lang="en"
+      xmlns:th="//www.thymeleaf.org">
+
+
+<head>
+    <meta charset="UTF-8"/>
+    <title th:text="${titulo}" ></title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}"></link>
+</head>
+<body>
+<h1 class="color-rojo" th:text="${titulo}"></h1>
+<h2 class="color-azul">Decorando con estilos CSS</h2>
+<img th:src="@{/images/spring.jpg}"></img>
+
+</body>
+</html>
